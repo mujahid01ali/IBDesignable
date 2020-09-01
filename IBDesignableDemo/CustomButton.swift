@@ -1,15 +1,15 @@
 //
-//  CustomButtom.swift
+//  CustomButton.swift
 //  IBDesignableDemo
 //
 //  Created by Mujahid on 01/09/20.
 //  Copyright © 2020 Mujahid. All rights reserved.
 //
-
 import Foundation
 import UIKit
 
 @IBDesignable class CustomButton:UIButton{
+    
     @IBInspectable var cornerRadius:CGFloat = 0.0{
         didSet{
             self.layer.cornerRadius = cornerRadius

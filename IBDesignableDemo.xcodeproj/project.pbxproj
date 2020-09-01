@@ -15,7 +15,7 @@
 		0AA3244E24FE047500273AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3244C24FE047500273AE3 /* LaunchScreen.storyboard */; };
 		0AA3245924FE047500273AE3 /* IBDesignableDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3245824FE047500273AE3 /* IBDesignableDemoTests.swift */; };
 		0AA3246424FE047500273AE3 /* IBDesignableDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3246324FE047500273AE3 /* IBDesignableDemoUITests.swift */; };
-		0AA3247224FE04E700273AE3 /* CustomButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3247124FE04E600273AE3 /* CustomButtom.swift */; };
+		0AA3247424FE14BD00273AE3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3247324FE14BD00273AE3 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		0AA3245F24FE047500273AE3 /* IBDesignableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA3246324FE047500273AE3 /* IBDesignableDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableDemoUITests.swift; sourceTree = "<group>"; };
 		0AA3246524FE047500273AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AA3247124FE04E600273AE3 /* CustomButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtom.swift; sourceTree = "<group>"; };
+		0AA3247324FE14BD00273AE3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				0AA3244C24FE047500273AE3 /* LaunchScreen.storyboard */,
 				0AA3244F24FE047500273AE3 /* Info.plist */,
 				0AA3244724FE047300273AE3 /* IBDesignableDemo.xcdatamodeld */,
-				0AA3247124FE04E600273AE3 /* CustomButtom.swift */,
+				0AA3247324FE14BD00273AE3 /* CustomButton.swift */,
 			);
 			path = IBDesignableDemo;
 			sourceTree = "<group>";
@@ -262,10 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA3247424FE14BD00273AE3 /* CustomButton.swift in Sources */,
 				0AA3244324FE047300273AE3 /* ViewController.swift in Sources */,
 				0AA3243F24FE047300273AE3 /* AppDelegate.swift in Sources */,
 				0AA3244924FE047300273AE3 /* IBDesignableDemo.xcdatamodeld in Sources */,
-				0AA3247224FE04E700273AE3 /* CustomButtom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
